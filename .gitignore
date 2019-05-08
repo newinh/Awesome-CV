@@ -11,14 +11,17 @@
 ## Intermediate documents:
 *.dvi
 *-converted-to.*
-<<<<<<< HEAD
+
 
 ### Editor ###
 ## Vim & Emacs temp files:
 .*sw[op]
 *~
 
+## VS Code
+# Extentions
+*.synctex.gz
+
 ### Mac OS X ###
 ## Mac OS X metadata files:
 *.DS_Store
-

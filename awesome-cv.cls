@@ -88,6 +88,10 @@
   pdfsubject={},
   pdfkeywords={}
 }
+% Needed to deal korean character
+\RequirePackage{kotex}
+\setmainhangulfont{NanumGothic}
+
 
 
 %-------------------------------------------------------------------------------
@@ -114,6 +118,8 @@
 \fancyhf{}
 % Enable if you want to make header or footer using fancyhdr
 \pagestyle{fancy}
+
+\setstretch{1.1}
 
 
 %-------------------------------------------------------------------------------
@@ -161,7 +167,7 @@
 %                Configuration for fonts
 %-------------------------------------------------------------------------------
 % Set the FontAwesome font to be up-to-date.
-\newfontfamily\FA[Path=\@fontdir]{FontAwesome}
+\setfontfamily\FA[Path=\@fontdir]{FontAwesome}
 % Set font for header (default is Roboto)
 \newfontfamily\headerfont[
   Path=\@fontdir,
