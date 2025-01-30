@@ -94,8 +94,8 @@
 \RequirePackage{kotex}
 \setmainhangulfont{NanumGothic}
 
-% % Solves issues Warning: File `cv.out' has changed
-% \RequirePackage{bookmark}
+% Solves issues Warning: File `cv.out' has changed
+\RequirePackage{bookmark}
 
 %-------------------------------------------------------------------------------
 %                Configuration for directory locations
@@ -120,8 +120,6 @@
 \fancyhf{}
 % Enable if you want to make header or footer using fancyhdr
 \pagestyle{fancy}
-
-\setstretch{1.1}
 
 
 %-------------------------------------------------------------------------------
@@ -169,27 +167,8 @@
 %-------------------------------------------------------------------------------
 %                Configuration for fonts
 %-------------------------------------------------------------------------------
-% Set the FontAwesome font to be up-to-date.
-\setfontfamily\FA[Path=\@fontdir]{FontAwesome}
-% Set font for header (default is Roboto)
-\newfontfamily\headerfont[
-  Path=\@fontdir,
-  UprightFont=*-Regular,
-  ItalicFont=*-Italic,
-  BoldFont=*-Bold,
-  BoldItalicFont=*-BoldItalic,
-]{Roboto}
-
-\newfontfamily\headerfontlight[
-  Path=\@fontdir,
-  UprightFont=*-Thin,
-  ItalicFont=*-ThinItalic,
-  BoldFont=*-Medium,
-  BoldItalicFont=*-MediumItalic,
-]{Roboto}
-
-% \newcommand*{\headerfont}{\roboto}
-% \newcommand*{\headerfontlight}{\robotolight}
+\newcommand*{\headerfont}{\roboto}
+\newcommand*{\headerfontlight}{\robotolight}
 \newcommand*{\footerfont}{\sourcesanspro}
 \newcommand*{\bodyfont}{\sourcesanspro}
 \newcommand*{\bodyfontlight}{\sourcesansprolight}

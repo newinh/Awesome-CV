@@ -20,3 +20,9 @@ coverletter.pdf: $(EXAMPLES_DIR)/coverletter.tex
 
 clean:
 	rm -rf $(EXAMPLES_DIR)/*.pdf
+
+RESUME_EN_DIR = newinh/resume/en
+RESUME_EN_SRCS = $(shell find $(RESUME_EN_DIR) -name '*.tex')
+
+resume_en.pdf: $(RESUME_EN_DIR)/resume_en.tex $(RESUME_EN_SRCS)
+	$(CC) -output-directory=$(RESUME_EN_DIR) $<

@@ -1,0 +1,12 @@
+services:
+  resume-en:
+    platform: linux/amd64
+    image: "thomasweise/docker-texlive-full"
+    # user: "${UID}:${GID}"
+    volumes:
+      - .:/doc
+      - ./fonts/:/usr/share/fonts/external/
+    working_dir: /doc
+    command: make resume_en.pdf
+    # stdin_open: true # -i 옵션 (interactive mode)
+    # tty: true         # TTY를 활성화하여 터미널 세션을 유지
