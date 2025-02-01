@@ -21,6 +21,7 @@
 ## VS Code
 # Extentions
 *.synctex.gz
+.vscode/settings.json
 
 ### Mac OS X ###
 ## Mac OS X metadata files:

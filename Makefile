@@ -26,3 +26,9 @@ RESUME_EN_SRCS = $(shell find $(RESUME_EN_DIR) -name '*.tex')
 
 resume_en.pdf: $(RESUME_EN_DIR)/resume_en.tex $(RESUME_EN_SRCS)
 	$(CC) -output-directory=$(RESUME_EN_DIR) $<
+
+RESUME_KO_DIR = newinh/resume/ko
+RESUME_KO_SRCS = $(shell find $(RESUME_KO_DIR) -name '*.tex')
+
+resume_ko.pdf: $(RESUME_KO_DIR)/resume_ko.tex $(RESUME_KO_SRCS)
+	$(CC) -output-directory=$(RESUME_KO_DIR) $<

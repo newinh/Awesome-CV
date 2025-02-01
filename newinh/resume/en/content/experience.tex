@@ -10,73 +10,154 @@
 %-------------------------------------------------------------------------------
 \begin{cventries}
 %---------------------------------------------------------
-  \cventry
-  {Back-end Engineer} % Job title
-  {Kasa Korea Co., Ltd.} % Organization
+\cventry
+  {Backend Engineer} % Job title
+  {AO Labs} % Organization
   {Seoul, S.Korea} % Location
-  {Jul. 2019 - Sep. 2021} % Date(s)
+  {May. 2024 - Present} % Date(s)
   {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item[] {\textbf{Kasa Service Web Server.}}
+        \item[] {\textbf{Market service} \hspace{1cm} \textit{Go, Redis (Pubsub \& Stream), TimescaleDB (PostreSQL)}}
+        \item {Designed and implemented a service that dynamically subscribes to and processes real-time market data, including token prices.}
+        \item[] 
+        \item[] {\textbf{Backend of a Blockchain-based Service} \hspace{1cm} \textit{Go, gRPC, GCP, Cloud Run, GCP Pubsub, MySQL}}
+        \item {Subscribed to and indexed blockchain data.}
+        \item {Developed an admin tool using low-code platform(Retool).}
+      \end{cvitems}
+  }
+
+%---------------------------------------------------------
+\cventry
+  {Backend Engineer, Team Lead} % Job title
+  {Mathpresso, Inc.} % Organization
+  {Seoul, S.Korea} % Location
+  {Jan. 2022 - May. 2024} % Date(s)
+  {
+    \begin{cvsubentries}
+      \cvsubentry{}{\small \underline{Lab Development Team Lead}}{Oct. 2022 - Mar. 2023}{}
+      \begin{cvitems}
+        \item[] {Led a team of around 5 backend engineers, responsible for the QADNA service's problem search engine and data collection to indexing.}
+        \item {Focused on maximizing individual strengths to improve team performance.}
+        \begin{itemize}
+          \item {Identified strengths and set career goals through regular one-on-one meetings.}
+        \end{itemize}
+        \item {Created an environment for fast and smooth communication to enhance team productivity.}
+        \begin{itemize}
+          \item {Streamlined meetings and fostered a positive atmosphere.}
+        \end{itemize}
+        \item[]
+      \end{cvitems}
+      \cvsubentry{}{\small \underline{Content Platform TF Lead}}{Mar. 2023 - May. 2024}{}
+      \begin{cvitems}
+        \item[] {Managed a team of about 7 members, including engineers, domain experts, and service operators, aiming to efficiently create and manage large volumes of high-quality problem/solution data.}
+        \item {Communicated with various stakeholders and participated in business decision-making.}
+        \item {Supported the team in sharing common goals while utilizing resources for different missions.}
+        \begin{itemize}
+          \item {Established quantitative key performance indicators.}
+          \item {Presented expected outcomes based on goal achievement.}
+        \end{itemize}
+        \item[] 
+      \end{cvitems}
+    \end{cvsubentries}
+  }
+
+%---------------------------------------------------------
+\cventry
+  {} % Job title
+  {} % Organization
+  {} % Location
+  {} % Date(s)
+  {
+  \begin{cvsubentries}
+    \cvsubentry{}{\small \underline{Backend Engineer}}{Jan. 2022 - May. 2024}{}
+    \begin{cvitems} % Description(s) of tasks/responsibilities
+      \item[] {\textbf{Knowledge Graph} \hspace{1cm} \textit{Go, Neo4j (graphDB)}}
+      \item[] {Project to flexibly manage relationships between key models in math education (e.g., problem types, concepts, prerequisite and subsequent concepts).}
+      \item {Participated from the planning phase to systematize from conceptual units to curriculum, utilizing concept-based data such as problem labeling.}
+      \item[] 
+      \item[] {\textbf{Data Pipeline} \hspace{1cm} \textit{Go, MySQL, GCP, AppEngine}}
+      \item {Developed data collection, processing, and pipelines for search engines, AI learning, and content services.}
+      \item[] 
+      \item[] {\textbf{Problem/Solution Resource Service} \hspace{1cm} \textit{Go, MySQL, Neo4j}}
+      \item {Managed and optimized problem/solution data.}
+      \item[] {\textbf{Image Search} \hspace{1cm} \textit{Go, Milvus (Vector DB)}}
+      \item {Built an image search service by integrating in-house Image Embedding models with vector databases.}
+      \item[]
+    \end{cvitems}
+  \end{cvsubentries}
+  }
+
+%---------------------------------------------------------
+  \cventry
+    {Backend Engineer} % Job title
+    {Kasa Korea Co., Ltd.} % Organization
+    {Seoul, S.Korea} % Location
+    {Jul. 2019 - Sep. 2021} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item[] {\textbf{Kasa Service Web Server.} \hspace{1cm} \textit{Django, DRF, MySQL, redis}}
         \item {Contributed project from scratch and experienced in early stages of operation.}
         \item {Implemented Authentication, Public Offering, Ledger services. Designed entity-relation and REST API.}
-        \item {Django, DRF, MySQL, redis}
+        \item[]
       \end{cvitems}
     }
 
 %---------------------------------------------------------
   \cventry
-    {Back-end Engineer} % Job title
+    {Backend Engineer} % Job title
     {Omnious. Co., Ltd.} % Organization
     {Seoul, S.Korea} % Location
     {Nov. 2017 - Jul. 2019} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
         \item[] {\textbf{Labeling Tool}}
-        \item {Maintained back-end of in-house web application having 50+ active users for collecting fashion data to train AI model.}
+        \item {Maintained backend of in-house web application having 50+ active users for collecting fashion data to train AI model.}
         \begin{itemize}
-          \item[--] \textit{Docker, CircleCI, Rancher, AWS(EC2, S3, RDS)}
+          \item[] \textit{Docker, CircleCI, Rancher, AWS(EC2, S3, RDS)}
         \end{itemize}
         \item {Designed RESTful HTTP API, developed server serving them. Documented API specification for communication.}
         \begin{itemize}
-          \item[--] \textit{flask, NGINX, uWSGI, Swagger}
+          \item[] \textit{flask, NGINX, uWSGI, Swagger}
         \end{itemize}
         \item {Established relation of domain model, designed database schema.}
         \begin{itemize}
-          \item[--] \textit{MySQL}
+          \item[] \textit{MySQL}
         \end{itemize}
         \item {Built HTTP access logging system and pipeline to store it.}
         \begin{itemize}
-          \item[--] \textit{fluntd, fluent-bit}
+          \item[] \textit{fluntd, fluent-bit}
         \end{itemize}
         \item {Introduced unit testing, style guide of codebase.}
         \begin{itemize}
-          \item[--] \textit{flake8, pytest}
+          \item[] \textit{flake8, pytest}
         \end{itemize}
-        \item[] {\textbf{Data Extraction \& Transformation}}
+        \item[]
+        \item[] {\textbf{Data Extraction \& Transformation} \hspace{1cm} \textit{pandas, Celery}}
         \item {Extracted collected data to train AI model and pre-processed in a form that is easy to train.}
         \item {Automated process from data extraction to data processing, developed CLI tool to access automated data transfer system.}
-        \item[--] \textit{pandas, Celery}
-        \item[] {\textbf{Crawler}}
+        \item[]
+        \item[] {\textbf{Crawler} \hspace{1cm} \textit{Scrapy, ScrapingHub, Zappa, AWS(SNS, SQS, Labmda)}}
         \item {Implemented 20+ web crawlers for collecting fashion images, developed a scheduling tool for management.} 
         \item {Built serverless pipeline that stores crawled data in a storage.}
-        \item[--] \textit{Scrapy, ScrapingHub, Zappa, AWS(SNS, SQS, Labmda)}
+        \item[]
       \end{cvitems}
     }
 
-%---------------------------------------------------------
-  \cventry
-    {Software Developer Intern} % Job title
-    {LayGen Inc.} % Organization
-    {Gyeonggi-do, S.Korea} % Location
-    {Aug. 2017 - Sep. 2017} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Participated to manufactoring operating module for a prototype of 3D printer and developed software control the module.}
-        \item {Developed GUI so that hardware engineer can test controling each part of 3D printer.}
-        \item[--] \textit{Python, PyQT, Rasberry Pi, Arduino}
-      \end{cvitems}
-    }
+% %---------------------------------------------------------
+%   \cventry
+%     {Software Developer Intern} % Job title
+%     {LayGen Inc.} % Organization
+%     {Gyeonggi-do, S.Korea} % Location
+%     {Aug. 2017 - Sep. 2017} % Date(s)
+%     {
+%       \begin{cvitems} % Description(s) of tasks/responsibilities
+%         \item {Participated to manufactoring operating module for a prototype of 3D printer and developed software control the module.}
+%         \item {Developed GUI so that hardware engineer can test controling each part of 3D printer.}
+%         \begin{itemize}
+%           \item[--] \textit{Python, PyQT, Rasberry Pi, Arduino}
+%         \end{itemize}
+%       \end{cvitems}
+%     }
 
 %---------------------------------------------------------
   \cventry
@@ -86,10 +167,10 @@
     {Apr. 2017 - May. 2017} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Prototyped iOS application ``Targeted Video'' emphasizing object user want in video.}
+        \item[] {\textbf{Targeted Video} \hspace{1cm} \textit{Swift, OpenCV}}
+        \item[] {Developed an iOS app for isolating and modifying desired objects in videos.}
         \item {Used technique of contour extraction, image segmentation and stabilization.}
         \item {Implemented video editing function that cuts or pastes object user selected.}
-        \item[--] \textit{Swift, OpenCV}
       \end{cvitems}
     }
 
